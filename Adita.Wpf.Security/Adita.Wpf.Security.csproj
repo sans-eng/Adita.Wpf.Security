@@ -8,17 +8,24 @@
     <Version>1.0.0.0</Version>
     <Authors>Setya Adi Kurnia</Authors>
     <Company>Adita</Company>
-    <Description>A security library that targeting  .NET 6 WPF</Description>
+    <Description>A security library for .NET WPF</Description>
     <Copyright>©2022 Adita</Copyright>
     <PackageTags>Security; NET6; WPF; authorization;</PackageTags>
     <PackageReleaseNotes>First release</PackageReleaseNotes>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageIcon>favicon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/sans-eng/Adita.Wpf.Security</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\..\..\..\Designs\favicon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
