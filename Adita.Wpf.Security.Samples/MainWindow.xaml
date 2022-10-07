@@ -1,0 +1,14 @@
+﻿<Window x:Class="Adita.Wpf.Security.Samples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Adita.Wpf.Security.Samples"
+        mc:Ignorable="d"
+        xmlns:auth="clr-namespace:Adita.Wpf.Security.Authorization;assembly=Adita.Wpf.Security"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBox Text="Disabled on refuse" auth:Authorize.RefusalMethod="Disabling" auth:Authorize.Roles="User; UserAdmin"/>
+        <TextBlock Text="Collapsed on refuse" auth:Authorize.RefusalMethod="Collapsing" auth:Authorize.Roles="User; UserAdmin"/>
+    </StackPanel>
+</Window>
