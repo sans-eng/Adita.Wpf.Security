@@ -10,5 +10,6 @@
     <StackPanel>
         <TextBox Text="Disabled on refuse" auth:Authorize.RefusalMethod="Disabling" auth:Authorize.Roles="User; UserAdmin"/>
         <TextBlock Text="Collapsed on refuse" auth:Authorize.RefusalMethod="Collapsing" auth:Authorize.Roles="User; UserAdmin"/>
+        <TextBox Text="Accepted" auth:Authorize.RefusalMethod="Disabling" auth:Authorize.Roles="Admin; UserAdmin"/>
     </StackPanel>
 </Window>
