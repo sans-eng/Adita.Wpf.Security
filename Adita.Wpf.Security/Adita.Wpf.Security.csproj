@@ -13,6 +13,19 @@
     <PackageTags>Security; NET6; WPF; authorization;</PackageTags>
     <PackageReleaseNotes>First release</PackageReleaseNotes>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageIcon>favicon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Designs\favicon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
