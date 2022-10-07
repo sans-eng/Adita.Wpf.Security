@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Title>Adita.Wpf.Security</Title>
+    <Version>1.0.0.0</Version>
+    <Authors>Setya Adi Kurnia</Authors>
+    <Company>Adita</Company>
+    <Description>A security library that targeting  .NET 6 WPF</Description>
+    <Copyright>©2022 Adita</Copyright>
+    <PackageTags>Security; NET6; WPF; authorization;</PackageTags>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>
